@@ -1,5 +1,6 @@
 import cafe from './images/surfcafe.jpg';
 import waves from './images/aiwaves.jpg'; 
+import './images/burgerman.jpg';
 import * as homeFunctions from './home.js';
 import * as reLoad from './load.js';
 
@@ -23,15 +24,15 @@ function backgroundLoad() {
     let p = page.style; 
     p.backgroundImage = 'url(' + cafe + ')';
     p.backgroundSize = "cover"
-    p.height = "80vh";
-    p.width = "60vh";
+    p.height = "88vh";
+    p.width = "66vh";
     p.borderRadius = "20px";
     p.padding = "50px"; 
     contentHolder.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     contentHolder.style.borderRadius = "30px";
     contentHolder.style.paddingLeft = "50px";
     contentHolder.style.paddingRight = "50px";
-    contentHolder.style.height = "90%";
+    contentHolder.style.height = "95%";
     contentHolder.style.color = "white";
     contentHolder.style.margin = "0px"; 
     contentHolder.style.fontFamily = "Original Surfer";
@@ -46,17 +47,17 @@ function backgroundLoad() {
     nav.style.borderRadius = "20px 20px 0 0 ";  
     homeButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     homeButton.style.color = "white";
-    homeButton.style.padding = "10px 50px 10px 50px";
+    homeButton.style.padding = "10px 30px 10px 30px";
     homeButton.style.borderRadius = "10px 10px 0 0 ";
     homeButton.style.borderStyle = "none";
     menuButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     menuButton.style.color = "white";
-    menuButton.style.padding = "10px 50px 10px 50px";
+    menuButton.style.padding = "10px 30px 10px 30px";
     menuButton.style.borderRadius = "10px 10px 0 0 ";
     menuButton.style.borderStyle = "none";
     aboutButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     aboutButton.style.color = "white";
-    aboutButton.style.padding = "10px 50px 10px 50px";
+    aboutButton.style.padding = "10px 20px 10px 20px";
     aboutButton.style.borderRadius = "10px 10px 0 0 ";
     aboutButton.style.borderStyle = "none";
     let t = cafeTitle.style;
@@ -66,7 +67,9 @@ function backgroundLoad() {
     t.color = "aqua";
     t.borderRadius = "30px 30px 0px 0px";
     t.justifyItems = "center";
-    t.paddingTop = "5px"; 
+    t.padding = "5px"; 
+    t.paddingLeft = "20px";
+    t.paddingRight = "20px";
     t.marginLeft = "-50px";
     t.marginRight = "-50px";
     let st = cafeST.style;
