@@ -1,6 +1,7 @@
 import cafe from './images/surfcafe.jpg';
 import waves from './images/aiwaves.jpg'; 
-import './load.js'; // Importing load.js from the src directory
+import * as homeFunctions from './home.js';
+import * as reLoad from './load.js';
 
 //build webpage basics
 
@@ -33,6 +34,7 @@ function backgroundLoad() {
     contentHolder.style.height = "90%";
     contentHolder.style.color = "white";
     contentHolder.style.margin = "0px"; 
+    contentHolder.style.fontFamily = "Original Surfer";
     let nav = document.querySelector("nav");
     nav.style.display = "flex";
     nav.style.justifyContent = "space-around";
@@ -42,7 +44,6 @@ function backgroundLoad() {
     nav.style.marginRight = "auto";
     nav.style.marginBottom = "0px";
     nav.style.borderRadius = "20px 20px 0 0 ";  
-    //nav.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     homeButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     homeButton.style.color = "white";
     homeButton.style.padding = "10px 50px 10px 50px";
@@ -61,7 +62,7 @@ function backgroundLoad() {
     let t = cafeTitle.style;
     t.display = "grid";         
     t.backgroundColor = "rgba(0, 100, 100, 0.4)";
-    t.fontSize = "55px";
+    t.fontSize = "75px";
     t.color = "aqua";
     t.borderRadius = "30px 30px 0px 0px";
     t.justifyItems = "center";
@@ -72,20 +73,38 @@ function backgroundLoad() {
     st.display = "grid";         
     st.backgroundColor = "rgba(0, 100, 100, 0.4)";
     st.color = "orange";
-    st.fontSize = "22px";
+    st.fontSize = "28px";
     st.justifyItems = "center";
     st.padding = "10px"; 
     st.marginLeft = "-50px";
-    st.marginRight = "-50px";
-   
+    st.marginRight = "-50px";   
+}
+
+function handleHomeButtonClick() {
+    reLoad.clear();
+    homeFunctions.homeLoad();
+}
+
+function handleMenuButtonClick() {
+    // Add your code to handle the click event for the menu button
+}
+
+function handleAboutButtonClick() {
+    // Add your code to handle the click event for the about button
 }
 
 
 
 
+// button click listeners
+homeButton.addEventListener("click", handleHomeButtonClick);
+menuButton.addEventListener("click", handleMenuButtonClick);
+aboutButton.addEventListener("click", handleAboutButtonClick);
 
 
 
 
+// code here
+//load page
 backgroundLoad();
-// button clicks go here
+//default to home?
