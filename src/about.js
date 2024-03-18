@@ -16,3 +16,5 @@ export function aboutLoad() {
     contentArea.appendChild(newPic);
     contentArea.appendChild(newContent2);
     }
+
+    //loads about page

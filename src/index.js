@@ -1,13 +1,15 @@
+//imports
 import cafe from './images/surfcafe.jpg';
 import waves from './images/aiwaves.jpg'; 
 import './images/burgerman.jpg';
 import './images/cafemap.jpg';
+import './images/beachBurger.png';
+import './images/hotburger.png';
+import './images/Poutine.png';
 import * as homeFunctions from './home.js';
 import * as aboutFunctions from './about.js';
+import * as menuFunctions from './menu.js';
 import * as reLoad from './load.js';
-
-//build webpage basics
-
 //variables
 const page = document.querySelector('.page');
 const contentHolder = document.querySelector('.card');
@@ -92,27 +94,21 @@ function handleHomeButtonClick() {
 
 function handleMenuButtonClick() {
    reLoad.clear();
-   h
+   menuFunctions.menuLoad();
 }
 
 function handleAboutButtonClick() {
     reLoad.clear();
     aboutFunctions.aboutLoad();
-    // Add your code to handle the click event for the about button
 }
-
-
-
 
 // button click listeners
 homeButton.addEventListener("click", handleHomeButtonClick);
 menuButton.addEventListener("click", handleMenuButtonClick);
 aboutButton.addEventListener("click", handleAboutButtonClick);
 
-
-
-
-// code here
-//load page
+//load page call home tab as default
 backgroundLoad();
-//default to home?
+handleMenuButtonClick();
+handleAboutButtonClick();
+handleHomeButtonClick();

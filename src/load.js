@@ -6,10 +6,10 @@ const contentContainer = document.getElementById("content");
 homeButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
 menuButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
 aboutButton.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-contentContainer.innerHTML = ''; // This will remove all child elements
-
+contentContainer.innerHTML = '';
 }
 
-
+//Reset background of buttons
+//clear div#content
 
 

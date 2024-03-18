@@ -24,3 +24,6 @@ contentArea.appendChild(newContent3);
 contentArea.appendChild(newContent4);
 contentArea.appendChild(newContent5);
 }
+
+
+//load home page
