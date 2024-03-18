@@ -7,7 +7,28 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/images/aiwaves.jpg":
+/*!********************************!*\
+  !*** ./src/images/aiwaves.jpg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/aiwaves.jpg\");\n\n//# sourceURL=webpack://restaurant_page/./src/images/aiwaves.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/surfcafe.jpg":
+/*!*********************************!*\
+  !*** ./src/images/surfcafe.jpg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/surfcafe.jpg\");\n\n//# sourceURL=webpack://restaurant_page/./src/images/surfcafe.jpg?");
+
+/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -15,8 +36,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _load_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load.js */ \"./src/load.js\");\n/* harmony import */ var _load_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_load_js__WEBPACK_IMPORTED_MODULE_0__);\nconsole.log(\"calling load\");\n // Importing load.js from the src directory\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _load_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load.js */ \"./src/load.js\");\n\n // Importing load.js from the src directory\n\n\n// button clicks go here\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
 
 /***/ }),
 
@@ -24,9 +44,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 /*!*********************!*\
   !*** ./src/load.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\nconst newHeader = document.createElement('h1');\nconst contentDiv = document.getElementById('content');\nconst newImage = document.createElement('img');\nconst newIntro = document.createElement('p1');\n\nnewHeader.textContent = 'Eat here right now. Good Food.';\nnewImage.src = \"data:image/jpeg;base64,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\";\nnewIntro.textContent = \"World Famous Grim Jim's Burgers: Juicy, flavorful patties grilled to perfection, nestled between fresh buns, delivering an unmatched taste sensation to burger enthusiasts worldwide.\";\n\ncontentDiv.appendChild(newHeader);\ncontentDiv.appendChild(newImage);\ncontentDiv.appendChild(newIntro);\n\n\n\n\n\nnewImage.style.width = '100%'; \nnewImage.style.height = 'auto'; \n\n\n//# sourceURL=webpack://restaurant_page/./src/load.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _images_surfcafe_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/surfcafe.jpg */ \"./src/images/surfcafe.jpg\");\n/* harmony import */ var _images_aiwaves_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/aiwaves.jpg */ \"./src/images/aiwaves.jpg\");\n\n\n\nconst contentDiv = document.getElementById('content'); //clear this\nconst newHeader = document.querySelector('.title');\nconst page = document.querySelector('.page');\nconst contentHolder = document.querySelector('.card');\nconst homeButton = document.querySelector(\"#home-btn\");\nconst menuButton = document.querySelector(\"#menu-btn\");\nconst aboutButton = document.querySelector(\"#about-btn\");\n\n\nfunction backgroundLoad() {\n    let bg = document.body.style;\n    bg.backgroundImage = 'url(' + _images_aiwaves_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"] + ')';\n    bg.backgroundSize = \"100vw 100vh\";\n    bg.display = \"flex\";\n    bg.justifyContent = \"center\";\n    pageLoad();\n}\n\nfunction pageLoad() {        \n    let nav = document.querySelector(\"nav\");\n    //nav.style.backgroundColor = \"rgba(0, 0, 0, 0.9)\";\n    nav.style.display = \"flex\";\n    nav.style.justifyContent = \"space-around\";\n    nav.style.paddingTop = \"10px\";\n    nav.style.width = \"90%\";\n    nav.style.marginLeft = \"auto\";\n    nav.style.marginRight = \"auto\";\n    nav.style.marginBottom = \"-21px\";\n    nav.style.borderRadius = \"20px 20px 0 0 \";    \n    homeButton.style.backgroundColor = \"rgba(0, 0, 0, 0.9)\";\n    homeButton.style.color = \"white\";\n    homeButton.style.padding = \"10px 50px 10px 50px\";\n    homeButton.style.borderRadius = \"10px 10px 0 0 \";\n    homeButton.style.borderStyle = \"none\";\n    menuButton.style.backgroundColor = \"rgba(0, 0, 0, 0.9)\";\n    menuButton.style.color = \"white\";\n    menuButton.style.padding = \"10px 50px 10px 50px\";\n    menuButton.style.borderRadius = \"10px 10px 0 0 \";\n    menuButton.style.borderStyle = \"none\";\n    aboutButton.style.backgroundColor = \"rgba(0, 0, 0, 0.9)\";\n    aboutButton.style.color = \"white\";\n    aboutButton.style.padding = \"10px 50px 10px 50px\";\n    aboutButton.style.borderRadius = \"10px 10px 0 0 \";\n    aboutButton.style.borderStyle = \"none\";\n    let p = page.style; \n    p.backgroundImage = 'url(' + _images_surfcafe_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"] + ')';\n    p.backgroundSize = \"cover\"\n    p.height = \"80vh\";\n    p.width = \"60vh\";\n    p.borderRadius = \"20px\";\n    p.padding = \"50px\"; \n    let h = newHeader.style;\n    h.display = \"grid\";         \n    h.backgroundColor = \"rgba(0, 150, 175, 0.1)\";\n    h.color = \"white\";\n    h.borderRadius = \"20px 20px 0px 0px\";\n    h.justifyItems = \"center\";\n    h.paddingTop = \"20px\"; \n    h.marginLeft = \"-50px\";\n    h.marginRight = \"-50px\";\n    contentHolder.style.backgroundColor = \"rgba(0, 0, 0, 0.9)\";\n    contentHolder.style.borderRadius = \"30px\";\n    contentHolder.style.paddingLeft = \"50px\";\n    contentHolder.style.paddingRight = \"50px\";\n    contentHolder.style.height = \"90%\";\n    contentHolder.style.color = \"white\";\n    contentHolder.style.margin = \"0px\";  \n       \n}\n\nasync function homeLoad() {\n    const homeModule = await __webpack_require__.e(/*! import() */ \"src_home_js\").then(__webpack_require__.t.bind(__webpack_require__, /*! ./home.js */ \"./src/home.js\", 23));\n}\n\nbackgroundLoad();\nhomeLoad();\n\n\n\n//body  page  card \n\n//# sourceURL=webpack://restaurant_page/./src/load.js?");
 
 /***/ })
 
@@ -56,16 +76,37 @@ eval("\n\nconst newHeader = document.createElement('h1');\nconst contentDiv = do
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	/* webpack/runtime/create fake namespace object */
 /******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
+/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 		var leafPrototypes;
+/******/ 		// create a fake namespace object
+/******/ 		// mode & 1: value is a module id, require it
+/******/ 		// mode & 2: merge all properties of value into the ns
+/******/ 		// mode & 4: return value when already ns object
+/******/ 		// mode & 16: return value when it's Promise-like
+/******/ 		// mode & 8|1: behave like require
+/******/ 		__webpack_require__.t = function(value, mode) {
+/******/ 			if(mode & 1) value = this(value);
+/******/ 			if(mode & 8) return value;
+/******/ 			if(typeof value === 'object' && value) {
+/******/ 				if((mode & 4) && value.__esModule) return value;
+/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 			}
+/******/ 			var ns = Object.create(null);
+/******/ 			__webpack_require__.r(ns);
+/******/ 			var def = {};
+/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 			}
+/******/ 			def['default'] = () => (value);
+/******/ 			__webpack_require__.d(ns, def);
+/******/ 			return ns;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -81,9 +122,89 @@ eval("\n\nconst newHeader = document.createElement('h1');\nconst contentDiv = do
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		__webpack_require__.f = {};
+/******/ 		// This file contains only the entry chunk.
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		__webpack_require__.e = (chunkId) => {
+/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
+/******/ 				__webpack_require__.f[key](chunkId, promises);
+/******/ 				return promises;
+/******/ 			}, []));
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get javascript chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference async chunks
+/******/ 		__webpack_require__.u = (chunkId) => {
+/******/ 			// return url for filenames based on template
+/******/ 			return "" + chunkId + ".main.js";
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/load script */
+/******/ 	(() => {
+/******/ 		var inProgress = {};
+/******/ 		var dataWebpackPrefix = "restaurant_page:";
+/******/ 		// loadScript function to load a script via script tag
+/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 			var script, needAttach;
+/******/ 			if(key !== undefined) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				for(var i = 0; i < scripts.length; i++) {
+/******/ 					var s = scripts[i];
+/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
+/******/ 				}
+/******/ 			}
+/******/ 			if(!script) {
+/******/ 				needAttach = true;
+/******/ 				script = document.createElement('script');
+/******/ 		
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 		
+/******/ 				script.src = url;
+/******/ 			}
+/******/ 			inProgress[url] = [done];
+/******/ 			var onScriptComplete = (prev, event) => {
+/******/ 				// avoid mem leaks in IE.
+/******/ 				script.onerror = script.onload = null;
+/******/ 				clearTimeout(timeout);
+/******/ 				var doneFns = inProgress[url];
+/******/ 				delete inProgress[url];
+/******/ 				script.parentNode && script.parentNode.removeChild(script);
+/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 				if(prev) return prev(event);
+/******/ 			}
+/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -95,6 +216,119 @@ eval("\n\nconst newHeader = document.createElement('h1');\nconst contentDiv = do
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
+/******/ 				// JSONP chunk loading for javascript
+/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 		
+/******/ 					// a Promise means "currently loading".
+/******/ 					if(installedChunkData) {
+/******/ 						promises.push(installedChunkData[2]);
+/******/ 					} else {
+/******/ 						if(true) { // all chunks have JS
+/******/ 							// setup Promise in chunk cache
+/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
+/******/ 							promises.push(installedChunkData[2] = promise);
+/******/ 		
+/******/ 							// start chunk loading
+/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 							// create error before stack unwound to get useful stacktrace later
+/******/ 							var error = new Error();
+/******/ 							var loadingEnded = (event) => {
+/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 									installedChunkData = installedChunks[chunkId];
+/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 									if(installedChunkData) {
+/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 										var realSrc = event && event.target && event.target.src;
+/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 										error.name = 'ChunkLoadError';
+/******/ 										error.type = errorType;
+/******/ 										error.request = realSrc;
+/******/ 										installedChunkData[1](error);
+/******/ 									}
+/******/ 								}
+/******/ 							};
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 						}
+/******/ 					}
+/******/ 				}
+/******/ 		};
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 		
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunkrestaurant_page"] = self["webpackChunkrestaurant_page"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
 /************************************************************************/
