@@ -1,7 +1,9 @@
 import cafe from './images/surfcafe.jpg';
 import waves from './images/aiwaves.jpg'; 
 import './images/burgerman.jpg';
+import './images/cafemap.jpg';
 import * as homeFunctions from './home.js';
+import * as aboutFunctions from './about.js';
 import * as reLoad from './load.js';
 
 //build webpage basics
@@ -89,10 +91,13 @@ function handleHomeButtonClick() {
 }
 
 function handleMenuButtonClick() {
-    // Add your code to handle the click event for the menu button
+   reLoad.clear();
+   h
 }
 
 function handleAboutButtonClick() {
+    reLoad.clear();
+    aboutFunctions.aboutLoad();
     // Add your code to handle the click event for the about button
 }
 

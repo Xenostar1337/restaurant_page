@@ -5,7 +5,7 @@ export function menuLoad() {
     const newPic = document.createElement('img');
     const newContent2 = document.createElement('div');
     contentArea.style.display = "grid";
-    contentArea.style.height = "75%";
+    contentArea.style.height = "70%";
     contentArea.style.overflowY = "scroll";
     newPic.src = './images/burgerman.jpg'
     newPic.style.width = "98%";
